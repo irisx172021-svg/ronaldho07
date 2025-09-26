@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    //  declareing in float cause it may conatin decimal places
+    float average,sum;
+ int number [] : {12,13,14,15,16,17,18,19}
+   // to find the elements in the brackets 
+ int number_size = sizeof(number) / sizeof(number[0]);
+   // loop for adding all elements,for the numerator
+  for (i=1;i<number_size;i++)
+      sum +=number[i];
+      // finding average
+average = sum/number_size;
+
+
+printf ("%.2f",average);
+  
+    return 0;
+}
